@@ -37,7 +37,7 @@ if ( !$error && (($handle = fopen($googleSpreadsheetUrl, "r")) !== FALSE) )
       'properties' => array(
         'title' => $csvRow[2],
         'notes' => $csvRow[3],
-        'property3' => $csvRow[4]
+        '' => $csvRow[4]
       )
     );
   } // end while, loop through CSV data
